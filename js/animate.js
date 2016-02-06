@@ -5,7 +5,7 @@ var cnt=1;
 var maxCnt=5;
 
 //set speed in seconds from user input
-var seconds = $("#animationSeconds").val();
+var seconds = $("#animationSeconds").val()
 if (seconds <= 0){
   seconds = 1;
 }
@@ -67,6 +67,6 @@ $("input[value=doAnimate]").click(function( event ) {
         }
 
         next();
-      }, millSeconds);
+      }, ($("#animationSeconds").val() * 1000) );
   })();
 });
