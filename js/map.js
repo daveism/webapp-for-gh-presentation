@@ -1,3 +1,5 @@
+
+
 var tmsFolder = 'https://s3.amazonaws.com/mytms/curtms/';
 var dataFolder = './data/';
 var dataFolder = 'https://raw.githubusercontent.com/daveism/cr-quick/gh-pages/data/';
@@ -14,6 +16,8 @@ var Date_WMS2;
 var Date_WMS3;
 var Date_WMS4;
 var Date_WMS5;
+
+
 
 //map box simple map
 var basicMap = L.tileLayer('http://api.tiles.mapbox.com/v3/daveism.oo0p88l4/{z}/{x}/{y}.png', {
@@ -35,7 +39,7 @@ var baseMaps = {
 
 //set basics for map
 var map = L.map('map',{
-  center: [34.649,-86.637],
+  center: [34.269,-87.830],
   zoom: 13,
   layers: [image],
   crs: 	L.CRS.EPSG900913
