@@ -22,7 +22,7 @@ var turnOffall = function(){
     //uncheck
     $('#image'+i).prop('checked', false);
     //get layer
-    var mapLayer = overlayMaps['datewms' + i]
+    var mapLayer = overlayMaps[1]['datewms' + i]
     //remove layer
     map.removeLayer(mapLayer);
   }
