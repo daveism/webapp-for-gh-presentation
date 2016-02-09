@@ -56,7 +56,7 @@ $("input[value=doAnimate]").click(function( event ) {
 
         //turn on and check current layer
         $('#image'+cnt).prop('checked', true);
-        var mapLayer = overlayMaps['datewms' + cnt]
+        var mapLayer = overlayMaps[1]['datewms' + cnt]
         map.addLayer(mapLayer);
         //increment count
         cnt++;
